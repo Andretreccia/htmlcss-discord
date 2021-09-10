@@ -49,9 +49,12 @@
     background-color:sienna;
     height: 600px;
 }
-.debug .main_text{
+.debug .main_text, .action{
     background-color: tan;
     height: 600px;
+}
+.debug .main_hero{
+    background-color: coral;
 }
 
 /* Header */
@@ -79,4 +82,12 @@
 .main_image{
     width: 65%;
     float: left;
+}
+.main_text.large, .action {
+    width: 100%;
+    height: 200px;
+}
+.main_hero {
+    width: 100%;
+    height: 600px;
 }
