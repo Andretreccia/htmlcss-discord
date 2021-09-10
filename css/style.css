@@ -36,6 +36,24 @@
     margin: auto;
     background-color: cadetblue ;
 }
+.debug #main {
+    background-color: darkgoldenrod ;
+    padding: 50px 0;
+}
+.debug .container.main{
+    background-color:sandybrown;
+    width: 80%;
+    padding: 1rem;
+}
+.debug .main_image{
+    background-color:sienna;
+    height: 600px;
+}
+.debug .main_text{
+    background-color: tan;
+    height: 600px;
+}
+
 /* Header */
 .side{
     height: 80px;
@@ -53,4 +71,12 @@
 }
 .container.hero{
     padding-top: 80px;
+}
+.main_text{
+    width: 35%;
+    float: left;
+}
+.main_image{
+    width: 65%;
+    float: left;
 }
