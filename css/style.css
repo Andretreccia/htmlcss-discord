@@ -14,49 +14,67 @@
     
 }
 /* debug */
-.debug .head {
-    background-color: aquamarine;
-    width: 100%;
+    /* header debug */
+    .debug .head {
+        background-color: aquamarine;
+        width: 100%;
+    }
+    .debug .navbar {
+        background-color: azure;
+        width: 80%;
+    }
+    .debug .side{
+        background-color: cadetblue;
+    }
+    .debug .links{
+        background-color: darkcyan;
+    }
+    .debug .hero{
+        background-color: blue;
+        height: 500px;
+    }
+    .debug .hero_text{
+        margin: auto;
+        background-color: cadetblue ;
 }
- .debug .navbar {
-    background-color: azure;
-    width: 80%;
-}
-.debug .side{
-    background-color: cadetblue;
-}
-.debug .links{
-    background-color: darkcyan;
-}
-.debug .hero{
-    background-color: blue;
-    height: 500px;
-}
-.debug .hero_text{
-    margin: auto;
-    background-color: cadetblue ;
-}
-.debug #main {
-    background-color: darkgoldenrod ;
-    padding: 50px 0;
-}
-.debug .container.main{
-    background-color:sandybrown;
-    width: 80%;
-    padding: 1rem;
-}
-.debug .main_image{
-    background-color:sienna;
-    height: 600px;
-}
-.debug .main_text, .action{
-    background-color: tan;
-    height: 600px;
-}
-.debug .main_hero{
-    background-color: coral;
-}
-
+    /* Main debug */
+    .debug #main {
+        background-color: darkgoldenrod ;
+        padding: 50px 0;
+    }
+    .debug .container.main{
+        background-color:sandybrown;
+        width: 80%;
+        padding: 1rem;
+    }
+    .debug .main_image{
+        background-color:sienna;
+        height: 600px;
+    }
+    .debug .main_text, .action{
+        background-color: tan;
+        height: 600px;
+    }
+    .debug .main_hero{
+        background-color: coral;
+    }
+    /* footer debug */
+    .debug #footer {
+background-color: darkslategray;
+    }
+    .debug .container.footer{
+        background: darkgreen;
+    }
+    .debug .foot_links, .foot_social{
+        background-color: darkolivegreen;
+        border: 1px solid black;
+        height: 400px;
+    }
+    .debug .foot_logo, .foot_register{
+        border: 1px solid black;
+        height: 80px;
+    }
+/* /debug */
 /* Header */
 .side{
     height: 80px;
@@ -75,6 +93,7 @@
 .container.hero{
     padding-top: 80px;
 }
+/* main */
 .main_text{
     width: 35%;
     float: left;
@@ -90,4 +109,21 @@
 .main_hero {
     width: 100%;
     height: 600px;
+}
+/* footer */
+.debug .container.footer{
+    width: 80%;
+}
+.foot_links{
+    width: 15%;
+}
+.foot_social{
+    width: 40%;
+}
+.foot_links, .foot_social{
+    float: left;
+}
+.foot_logo, .foot_register{
+    width: 50%;
+    float: left;
 }
