@@ -32,7 +32,7 @@ button{
     }
     .debug .navbar {
       /*   background-color: azure; */
-        width: 80%;
+        width: 1250px;
     }
    /*  .debug .side{
         background-color: cadetblue;
@@ -50,24 +50,25 @@ button{
 }
     /* Main debug */
     .debug #main {
-        background-color: darkgoldenrod ;
+        /* background-color: darkgoldenrod ; */
         padding: 50px 0;
     }
     .debug .container.main{
-        background-color:sandybrown;
-        width: 80%;
+       /*  background-color:sandybrown; */
+        width: 1250px;
         padding: 1rem;
     }
     .debug .main_image{
-        background-color:sienna;
+       /*  background-color:sienna; */
         height: 600px;
     }
     .debug .main_text, .action{
-        background-color: tan;
-        height: 600px;
+     /*    background-color: tan; */
+        
     }
     .debug .main_hero{
-        background-color: coral;
+        /* background-color: coral; */
+
     }
     /* footer debug */
     .debug #footer {
@@ -169,7 +170,7 @@ background-color: darkslategray;
     }
     .main_hero {
         width: 100%;
-        height: 600px;
+        /* height: 600px; */
     }
     div.main_text h2{
         font-size: 3.5rem;
@@ -180,10 +181,26 @@ background-color: darkslategray;
         font-size: 1.5rem;
         font-weight: 600;
     }
-/* /header */
+    .main_text.large, .main_hero, .action{
+        text-align: center;
+    }
+    .title_ready{
+        margin: auto;
+        width: 500px;
+        height: 70px;
+        background-image: url(../img/stars.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        line-height: 70px;
+    }
+    button.lightblue{
+        background-color: rgb(123, 118, 202);
+        color: white;
+        font-size: 1.5rem;
+    }
 /* footer */
 .debug .container.footer{
-    width: 80%;
+    width: 1250px;
 }
 .foot_links{
     width: 15%;
