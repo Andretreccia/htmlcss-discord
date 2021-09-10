@@ -10,32 +10,43 @@
     clear: both;
 }
 .container {
-    margin: auto;
-    
+    margin: auto;  
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+
+button{
+    font-family : 'Catamaran';
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    padding: 1% 5%;
+    border-radius: 40px;
 }
 /* debug */
     /* header debug */
     .debug .head {
-        background-color: aquamarine;
+        background-color: rgb(37, 94, 233);
         width: 100%;
     }
     .debug .navbar {
-        background-color: azure;
+      /*   background-color: azure; */
         width: 80%;
     }
-    .debug .side{
+   /*  .debug .side{
         background-color: cadetblue;
     }
     .debug .links{
         background-color: darkcyan;
-    }
-    .debug .hero{
-        background-color: blue;
+    } */
+    .debug .content.header{
+       /*  background-color: blue; */
         height: 500px;
     }
     .debug .hero_text{
         margin: auto;
-        background-color: cadetblue ;
+       /*  background-color: cadetblue ; */
 }
     /* Main debug */
     .debug #main {
@@ -75,41 +86,92 @@ background-color: darkslategray;
         height: 80px;
     }
 /* /debug */
+
 /* Header */
-.side{
-    height: 80px;
-    width: 15%;
-    float: left;
+.head{
+    line-height: 80px;
 }
-.links{
-    height: 80px;
-    width: 70%;
-    float: left;
-}
-.hero_text{
-    width: 50%;
-    height: 300px;
-}
-.container.hero{
-    padding-top: 80px;
-}
-/* main */
-.main_text{
-    width: 35%;
-    float: left;
-}
-.main_image{
-    width: 65%;
-    float: left;
-}
-.main_text.large, .action {
-    width: 100%;
-    height: 200px;
-}
-.main_hero {
-    width: 100%;
-    height: 600px;
-}
+    /* Navbar */
+
+    .side{
+        height: 80px;
+        width: 15%;
+        float: left;
+    }
+    .button.side{
+        text-align: right;
+    }
+    .links{
+        height: 80px;
+        width: 70%;
+        float: left;
+        text-align: center;
+    }
+    .links .h{
+        color: white;
+        text-decoration: none;
+        margin: 1.5rem;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    img.logo{
+        vertical-align: middle;
+    }
+    /* Hero section */
+    .hero_text{
+        width: 50%;
+        height: 300px;
+        color: white;
+        text-align: center;
+        padding: rem;
+        font-size: 1.5rem;
+    }
+    .container.hero{
+        padding: 100px 0px;
+        background-image: url(../img/jumbo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container .hero{
+        margin: 1rem;
+    }
+    .container.hero h1.hero{
+        font-size: 3.5rem;
+    }
+    .container.hero p.hero{
+        font-size: 1.3rem;
+    }
+    button.dark{
+        font-size: 1.5rem;
+        color: white;
+        background-color: black;
+    }
+    button.light{
+        font-size: 1.5rem;
+        color: black;
+        background-color: white;
+        padding-left: 4%;
+    }
+    
+    /* /header */
+    /* main */
+    .main_text{
+        width: 35%;
+        float: left;
+    }
+    .main_image{
+        width: 65%;
+        float: left;
+    }
+    .main_text.large, .action {
+        width: 100%;
+        height: 200px;
+    }
+    .main_hero {
+        width: 100%;
+        height: 600px;
+    }
+/* /header */
 /* footer */
 .debug .container.footer{
     width: 80%;
