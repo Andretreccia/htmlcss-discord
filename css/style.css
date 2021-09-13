@@ -17,81 +17,67 @@ body{
 }
 .button{
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 50px;
     padding: 0.5rem 1rem;
+}
+.button:hover{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.274);
+    opacity: 90%;
+}
+
+i{
+    margin: 1rem 1rem 1rem 0;
 }
 
 /* debug */
     /* header debug */
-    .debug .head {
-        background-color: rgb(37, 94, 233);
-        width: 100%;
-    }
-    .debug .navbar {
-      /*   background-color: azure; */
-        width: 1250px;
-    }
+    
+    /* .debug .navbar {
+      background-color: azure;
+    } */
    /*  .debug .side{
         background-color: cadetblue;
     }
     .debug .links{
         background-color: darkcyan;
     } */
-    .debug .content.header{
-       /*  background-color: blue; */
+    /* .debug .content.header{
+        background-color: blue;
         height: 500px;
-    }
-    .debug .hero_text{
-        margin: auto;
-       /*  background-color: cadetblue ; */
-}
+    } */
+    /* .debug .hero_text{
+        background-color: cadetblue ;
+} */
     /* Main debug */
 /*     .debug #main {
     background-color: darkgoldenrod ;
     padding: 50px 0;
     } */
-    .debug .container.main{
-       /*  background-color:sandybrown; */
-        width: 1250px;
+    /* .debug .container.main{
+        background-color:sandybrown;
         padding: 1rem;
-    }
-    .debug .main_image{
-       /*  background-color:sienna; */
+    } */
+    /* .debug .main_image{
+        background-color:sienna;
         height: 600px;
-    }
-    .debug .main_text, .action{
-     /*    background-color: tan; */
-        
-    }
-    .debug .main_hero{
-        /* background-color: coral; */
-
-    }
+    } */
+    
     /* footer debug */
     .debug footer {
     background-color: rgba(35, 39, 42, 1);
-    }
-    .debug .container.footer{
-        background: rgba(35, 39, 42, 1);
-    }
-    .debug .foot_links, .foot_social{
-        background-color: rgba(35, 39, 42, 1);;
-      /*   border: 1px solid black; */
-        height: 400px;
-    }
-    .debug .foot_logo, .foot_register{
-        /* border: 1px solid black; */
-        height: 200px;
     }
 /* /debug */
 
 /* Header */
 .head{
     line-height: 80px;
+    background-color: rgb(37, 94, 233);
 }
     /* Navbar */
-
+    .navbar{
+        width: 1250px;
+    }
     .side{
         height: 80px;
         width: 15%;
@@ -113,6 +99,9 @@ body{
         font-weight: 600;
         font-size: 1.1rem;
     }
+    .links .h:hover{
+        text-decoration: underlines;
+    }
     img.logo{
         vertical-align: middle;
     }
@@ -120,7 +109,10 @@ body{
         background: white;
         font-size: 1.2rem;
     }
-    /* Hero section */
+    
+    /* /header */
+    /* main */
+        /* Hero section */
     .hero_text{
         width: 50%;
         height: 300px;
@@ -128,6 +120,7 @@ body{
         text-align: center;
         padding: rem;
         font-size: 1.5rem;
+        margin: auto;
     }
     .container.hero{
         padding: 100px 0px;
@@ -159,8 +152,9 @@ body{
        font-size: 1.5rem;
        margin: 1rem;
    }
-    /* /header */
-    /* main */
+    .container.main{
+         width: 1250px;
+    }
     .main_text{
         width: 35%;
         float: left;
@@ -205,6 +199,7 @@ body{
 /* footer */
 footer{
     height: 500px;
+    background: rgba(35, 39, 42, 1)
 }
 .container.footer{
     width: 1250px;
@@ -212,9 +207,17 @@ footer{
 .foot_links{
     width: 15%;
 }
+.foot_links a:hover{
+    text-decoration: underline;
+}
 .foot_social{
     padding: 2rem;
     width: 40%;
+}
+.social i{
+    color: white;
+    font-size: 1.5rem;
+    margin: 0.5rem;
 }
 .foot_links, .foot_social{
     float: left;
@@ -238,10 +241,11 @@ footer{
 
 
 .language img{
-    transform: scale(0.5);
+    transform: scale(0.4);
     vertical-align: bottom;
 }
 .ita {
+    display: inline-block;
     color: white;
     font-size: 1.5rem;
 }
