@@ -66,9 +66,9 @@ i{
     } */
     
     /* footer debug */
-    .debug footer {
+    /* .debug footer {
     background-color: rgba(35, 39, 42, 1);
-    }
+    } */
 /* /debug */
 
 /* Header */
@@ -113,53 +113,57 @@ i{
     }
     
     /* /header */
+
     /* main */
         /* Hero section */
-    .hero_text{
-        width: 900px;
-        color: white;
-        text-align: center;
-        font-size: 1.5rem;
-        margin: auto;
-        margin-bottom: 2rem;
-    }
-    .container.hero{
-        padding: 100px 0px;
-        background-image: url(../img/jumbo.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .container .hero{
+        .hero_text{
+            width: 900px;
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            margin: auto;
+            margin-bottom: 2rem;
+        }
+        .container.hero{
+            padding: 100px 0px;
+            background-image: url(../img/jumbo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container .hero{
+            margin: 1rem;
+        }
+        .container.hero h1.hero{
+            font-size: 3.5rem;
+        }
+        .container.hero p.hero{
+            font-size: 1.5rem;
+        }
+        .row_button{
+            text-align: center;
+        }
+        .button.mac{
+        background: white;
+        font-size: 1.4rem;
         margin: 1rem;
+        padding: 0.5rem 2rem;
+        }
+        .button.browser{
+        background: rgb(35, 39, 42);
+        color: white;
+        font-size: 1.4rem;
+        margin: 1rem;
+        padding: 0.5rem 2rem;
     }
-    .container.hero h1.hero{
-        font-size: 3.5rem;
-    }
-    .container.hero p.hero{
-        font-size: 1.5rem;
-    }
-    .row_button{
-        text-align: center;
-    }
-   .button.mac{
-       background: white;
-       font-size: 1.4rem;
-       margin: 1rem;
-       padding: 0.5rem 2rem;
-
-   }
-   .button.browser{
-       background: rgb(35, 39, 42);
-       color: white;
-       font-size: 1.4rem;
-       margin: 1rem;
-       padding: 0.5rem 2rem;
-   }
      /* Main */
     .content.white{
     position: relative;
     padding: 200px 0;
-}
+    }   
+    .content.gray{
+        background: rgb(230, 230, 230);
+        padding: 100px 0;
+    }
     img.bottom{
         opacity: 10%;
         position: absolute;
@@ -170,11 +174,7 @@ i{
         transform: rotate(0.5turn);
         position: absolute;
         top: 0;
-    }
-    .content.gray{
-        background: rgb(230, 230, 230);
-        padding: 100px 0;
-    }
+    } 
     .container.main{
          width: 1250px;
     }
@@ -189,10 +189,7 @@ i{
     .main_text.large, .action {
         width: 100%;
         height: 200px;
-    }
-    .main_hero {
-        width: 100%;
-        /* height: 600px; */
+        text-align: center;
     }
     div.main_text h2{
         font-size: 3.5rem;
@@ -203,7 +200,7 @@ i{
         font-size: 1.5rem;
         font-weight: 600;
     }
-    .main_text.large, .main_hero, .action{
+    .main_hero{
         text-align: center;
     }
     .title_ready{
@@ -224,6 +221,8 @@ i{
         color: white;
         padding: 0.5rem 2rem;
     }
+    /* / main */
+
 /* footer */
 footer{
     background: #23272A;
@@ -253,32 +252,29 @@ footer{
     width: 50%;
     float: left;
 }
-.foot_social h2, h3{
-    color: #6A80C9;
-}
+
 .colonna h3{
     font-size: 1.5rem;
     margin-top: 2rem;
+    color: #6A80C9;
 }
 .foot_social h2{
     font-size: 3rem;
     line-height: 3rem;
     margin-bottom: 1rem;
+    color: #6A80C9;
 }
 footer .row{
     padding: 1rem 0;
 }
-
 .language img{
-    transform: scale(0.4);
-    vertical-align: bottom;
+    height: 1rem;
 }
 .ita {
     display: inline-block;
     color: white;
     font-size: 1.5rem;
 }
-
 ul{
     list-style-type: none;
 }
