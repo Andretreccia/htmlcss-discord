@@ -24,6 +24,10 @@ button{
     padding: 1% 5%;
     border-radius: 40px;
 }
+button:hover{
+    cursor: pointer;
+}
+
 /* debug */
     /* header debug */
     .debug .head {
@@ -49,10 +53,10 @@ button{
        /*  background-color: cadetblue ; */
 }
     /* Main debug */
-    .debug #main {
-        /* background-color: darkgoldenrod ; */
-        padding: 50px 0;
-    }
+/*     .debug #main {
+    background-color: darkgoldenrod ;
+    padding: 50px 0;
+    } */
     .debug .container.main{
        /*  background-color:sandybrown; */
         width: 1250px;
@@ -71,7 +75,7 @@ button{
 
     }
     /* footer debug */
-    .debug #footer {
+    .debug footer {
     background-color: rgba(35, 39, 42, 1);
     }
     .debug .container.footer{
@@ -84,7 +88,7 @@ button{
     }
     .debug .foot_logo, .foot_register{
         /* border: 1px solid black; */
-        height: 80px;
+        height: 200px;
     }
 /* /debug */
 
@@ -199,7 +203,10 @@ button{
         font-size: 1.5rem;
     }
 /* footer */
-.debug .container.footer{
+footer{
+    height: 500px;
+}
+.container.footer{
     width: 1250px;
 }
 .foot_links{
@@ -248,4 +255,16 @@ ul{
     font-size: 1.1rem;
     font-weight: 600;
     padding: 2rem 0;
+}
+.end{
+    border-top: 1px solid rgb(123, 118, 202);
+    height: 200x;
+    padding-top: 2rem;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+.end button{
+    position: absolute;
+    right: 0;
 }
