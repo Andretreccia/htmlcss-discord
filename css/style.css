@@ -156,6 +156,25 @@ i{
        margin: 1rem;
        padding: 0.5rem 2rem;
    }
+     /* Main */
+    .content{
+    position: relative;
+    padding: 200px 0;
+}
+    img.bottom{
+        opacity: 10%;
+        position: absolute;
+        bottom: 0%;
+    }
+    img.top{
+        opacity: 10%;
+        transform: rotate(0.5turn);
+        position: absolute;
+        top: 0;
+    }
+    .content.gray{
+        background: rgb(230, 230, 230);
+    }
     .container.main{
          width: 1250px;
     }
