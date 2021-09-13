@@ -31,6 +31,8 @@ i{
 }
 
 /* debug */
+
+
     /* header debug */
     
     /* .debug .navbar {
@@ -100,7 +102,7 @@ i{
         font-size: 1.1rem;
     }
     .links .h:hover{
-        text-decoration: underlines;
+        text-decoration: underline;
     }
     img.logo{
         vertical-align: middle;
@@ -114,13 +116,13 @@ i{
     /* main */
         /* Hero section */
     .hero_text{
-        width: 50%;
-        height: 300px;
+        width: 800px;
         color: white;
         text-align: center;
         padding: rem;
         font-size: 1.5rem;
         margin: auto;
+        margin-bottom: 2rem;
     }
     .container.hero{
         padding: 100px 0px;
@@ -142,15 +144,17 @@ i{
     }
    .button.mac{
        background: white;
-       font-size: 1.5rem;
+       font-size: 1.4rem;
        margin: 1rem;
+       padding: 0.5rem 2rem;
 
    }
    .button.browser{
-       background:black;
+       background: rgb(35, 39, 42);
        color: white;
-       font-size: 1.5rem;
+       font-size: 1.4rem;
        margin: 1rem;
+       padding: 0.5rem 2rem;
    }
     .container.main{
          width: 1250px;
@@ -192,14 +196,19 @@ i{
         background-repeat: no-repeat;
         line-height: 70px;
     }
+    .title_ready h2{
+        font-size: 25px;
+        font-weight: 900;
+    }
     .last .button.mac{
-        background:royalblue;
+        background: #8EA1E1;
         color: white;
+        padding: 0.5rem 2rem;
     }
 /* footer */
 footer{
     height: 500px;
-    background: rgba(35, 39, 42, 1)
+    background: #23272A;
 }
 .container.footer{
     width: 1250px;
@@ -227,7 +236,7 @@ footer{
     float: left;
 }
 .foot_social h2, h3{
-    color: rgb(114, 127, 240);
+    color: #6A80C9;
 }
 .foot_links h3{
     font-size: 1.5rem;
@@ -261,7 +270,7 @@ ul{
     padding: 2rem 0;
 }
 .end{
-    border-top: 1px solid rgb(123, 118, 202);
+    border-top: 1px solid #6A80C9;
     height: 200x;
     padding-top: 2rem;
     width: 50%;
@@ -272,6 +281,6 @@ ul{
     text-align: right;
 }
 .button.registrati{
-    background: royalblue;
+    background: #8EA1E1;
     color: white;
 }
