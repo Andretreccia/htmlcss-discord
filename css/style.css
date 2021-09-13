@@ -116,10 +116,9 @@ i{
     /* main */
         /* Hero section */
     .hero_text{
-        width: 800px;
+        width: 900px;
         color: white;
         text-align: center;
-        padding: rem;
         font-size: 1.5rem;
         margin: auto;
         margin-bottom: 2rem;
@@ -137,7 +136,7 @@ i{
         font-size: 3.5rem;
     }
     .container.hero p.hero{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .row_button{
         text-align: center;
@@ -157,7 +156,7 @@ i{
        padding: 0.5rem 2rem;
    }
      /* Main */
-    .content{
+    .content.white{
     position: relative;
     padding: 200px 0;
 }
@@ -174,6 +173,7 @@ i{
     }
     .content.gray{
         background: rgb(230, 230, 230);
+        padding: 100px 0;
     }
     .container.main{
          width: 1250px;
@@ -226,16 +226,15 @@ i{
     }
 /* footer */
 footer{
-    height: 500px;
     background: #23272A;
 }
 .container.footer{
     width: 1250px;
 }
-.foot_links{
+.colonna{
     width: 15%;
 }
-.foot_links a:hover{
+.colonna a:hover{
     text-decoration: underline;
 }
 .foot_social{
@@ -247,7 +246,7 @@ footer{
     font-size: 1.5rem;
     margin: 0.5rem;
 }
-.foot_links, .foot_social{
+.colonna, .foot_social{
     float: left;
 }
 .foot_logo, .foot_register{
@@ -257,7 +256,7 @@ footer{
 .foot_social h2, h3{
     color: #6A80C9;
 }
-.foot_links h3{
+.colonna h3{
     font-size: 1.5rem;
     margin-top: 2rem;
 }
@@ -266,7 +265,9 @@ footer{
     line-height: 3rem;
     margin-bottom: 1rem;
 }
-
+footer .row{
+    padding: 1rem 0;
+}
 
 .language img{
     transform: scale(0.4);
@@ -281,7 +282,7 @@ footer{
 ul{
     list-style-type: none;
 }
-.foot_links a{
+.colonna a{
     text-decoration: none;
     color: white;
     font-size: 1.1rem;
