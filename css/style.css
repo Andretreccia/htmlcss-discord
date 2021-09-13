@@ -15,17 +15,11 @@
 body{
     font-family: 'Catamaran', sans-serif;
 }
-
-button{
-    font-family : 'Catamaran';
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    padding: 1% 5%;
-    border-radius: 40px;
-}
-button:hover{
-    cursor: pointer;
+.button{
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
 }
 
 /* debug */
@@ -103,7 +97,7 @@ button:hover{
         width: 15%;
         float: left;
     }
-    .button.side{
+    .accedi.side{ 
         text-align: right;
     }
     .links{
@@ -117,10 +111,14 @@ button:hover{
         text-decoration: none;
         margin: 1.5rem;
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     img.logo{
         vertical-align: middle;
+    }
+    .button.accedi{
+        background: white;
+        font-size: 1.2rem;
     }
     /* Hero section */
     .hero_text{
@@ -146,18 +144,21 @@ button:hover{
     .container.hero p.hero{
         font-size: 1.3rem;
     }
-    button.dark{
-        font-size: 1.5rem;
-        color: white;
-        background-color: black;
+    .row_button{
+        text-align: center;
     }
-    button.light{
-        font-size: 1.5rem;
-        color: black;
-        background-color: white;
-        padding-left: 4%;
-    }
-    
+   .button.mac{
+       background: white;
+       font-size: 1.5rem;
+       margin: 1rem;
+
+   }
+   .button.browser{
+       background:black;
+       color: white;
+       font-size: 1.5rem;
+       margin: 1rem;
+   }
     /* /header */
     /* main */
     .main_text{
@@ -197,10 +198,9 @@ button:hover{
         background-repeat: no-repeat;
         line-height: 70px;
     }
-    button.lightblue{
-        background-color: rgb(123, 118, 202);
+    .last .button.mac{
+        background:royalblue;
         color: white;
-        font-size: 1.5rem;
     }
 /* footer */
 footer{
@@ -264,7 +264,10 @@ ul{
     position: relative;
     float: left;
 }
-.end button{
-    position: absolute;
-    right: 0;
+.end.register{
+    text-align: right;
+}
+.button.registrati{
+    background: royalblue;
+    color: white;
 }
